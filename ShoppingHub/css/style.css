@@ -1,0 +1,2234 @@
+@charset "utf-8";
+/*
+=======================================================================
+	General Rules
+=======================================================================
+*/
+* {
+	padding:0px;
+	margin:0px;
+}
+body {
+	background-image:url(../images/bg.gif);
+	background-repeat:repeat-x;
+	background-color:#f4f4f4;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	color:#666;
+}
+a {
+	text-decoration:none;
+	outline:none;
+	color:#666;
+}
+a img {
+	border:none;
+}
+.clear {
+	clear:both;
+}
+.bold {
+	font-weight:bold;
+}
+.under {
+	text-decoration:underline;
+}
+.upper {
+	text-transform:uppercase;
+}
+.italic {
+	font-style:italic;
+}
+.colr {
+	color:#333333 !important;
+}
+.white {
+	color:#fff !important;
+}
+.black {
+	color:#000 !important;
+}
+h1 {
+	font-size:22px;
+	font-weight:normal;
+}
+h2 {
+	font-size:20px;
+	font-weight:normal;
+}
+h3 {
+	font-size:18px;
+	font-weight:normal;
+}
+h4 {
+	font-size:16px;
+	font-weight:normal;
+}
+h5 {
+	font-size:14px;
+	font-weight:normal;
+}
+h6 {
+	font-size:12px;
+	font-weight:normal;
+}
+p {
+	line-height:18px;
+}
+.left {
+	float:left !important;
+}
+.right {
+	float:right !important;
+}
+.heading {
+	padding:15px 0px 8px 0px;
+	width:100%;
+	border-bottom:#cccccc solid 1px;
+	margin-bottom:10px;
+}
+input {
+	font-size:11px;
+}
+textarea {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#666;
+}
+.itlc {
+	font-style:italic;
+}
+.noback {
+	background-image:none !important;
+}
+.noborder {
+	border:none !important;
+}
+
+/*
+=======================================================================
+	Buttons
+=======================================================================
+*/
+/* Button One */
+a.buttonone {
+	float:left;
+	height:18px;
+	padding:4px 12px 0px 12px;
+	background-image:url(../images/buttonone.gif);
+	background-repeat:repeat-x;
+	display:inline-block;
+	border:#151515 solid 1px;
+	color:#fff;
+}
+/*
+=======================================================================
+	Input Form Rules
+=======================================================================
+*/
+/*
+=======================================================================
+	Input Form Rules
+=======================================================================
+*/
+ul.forms {
+	float:left;
+	list-style:none;
+	padding:0px 20px 10px 0px;
+}
+ul.smallforms {
+	padding:0px 20px 15px 0px !important;
+}
+ul.forms li{
+}
+ul.forms li.txt{
+	width:229px;
+	color:#666;
+	padding:5px 0px 7px 0px;
+}
+ul.forms li.smalltxt{
+	float:left;
+	width:70px;
+	color:#666;
+	padding:0px 0px 0px 0px;
+}
+.req {
+	color:#F00;
+}
+ul.forms li.inputfield{
+	float:left;
+}
+ul.forms li.inputfield input{
+	width:229px;
+	height:20px;
+	line-height:20px;
+	background-image:url(../images/textarea.gif);
+	background-repeat:repeat-x;
+	background-color:#fff;
+	border:#cccccc solid 1px;
+	padding:0px 5px;
+}
+ul.forms li.inputfield select{
+	width:241px;
+	height:20px;
+	background-image:url(../images/textarea.gif);
+	background-repeat:repeat-x;
+	background-color:transparent;
+	border:#cccccc solid 1px;
+}
+ul.forms li.textfield{
+	float:left;
+}
+ul.forms li.textfield textarea{
+	width:340px;
+	height:110px;
+	background-image:url(../images/textarea.gif);
+	background-repeat:repeat-x;
+	border:#cccccc solid 1px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding:5px;
+	background-color:#fff;
+}
+ul.forms li.radiobtn{
+	float:left;
+}
+ul.forms li.radiobtn input{
+	margin:0px 10px;
+	float:left;
+}
+ul.forms li.check{
+	float:left;
+	width:auto;
+	margin-right:10px;
+}
+ul.forms li.labletxt{
+	margin:0px 20px 0px 0px;
+	float:left;
+}
+/*
+=======================================================================
+	Wrapper Section Rules
+=======================================================================
+*/
+#wrapper_sec {
+	width:100%;
+}
+.inner {
+	width:940px;
+	margin:0px auto;
+}
+/*
+=======================================================================
+	Header
+=======================================================================
+*/
+#masthead {
+	width:940px;
+	height:162px;
+}
+.topsec {
+	width:940px;
+	height:28px;
+	color:#888;
+}
+.topsec a{
+	color:#888;
+}
+.topsec a:hover{
+	color:#fff;
+	text-decoration:underline;
+}
+.topsec ul.links{
+	float:left;
+	list-style:none;
+	padding:8px 0px 0px 0px;
+}
+.topsec ul.links li{
+	float:left;
+	padding:0px 10px;
+	background-image:url(../images/sep.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+}
+.topsec ul.links li.first{
+	padding-left:0px;
+	background-image:none;
+}
+.topsec ul.lang{
+	float:right;
+	list-style:none;
+	padding:8px 0px 0px 0px;
+}
+.topsec ul.lang li{
+	float:left;
+	padding-left:5px;
+}
+.logosec {
+	width:940px;
+	height:97px;
+	color:#888;
+}
+.logo {
+	float:left;
+	padding:18px 0px 0px 10px;
+}
+.logo a{
+	float:left;
+	padding:0px 20px 0px 0px;
+	background-image:url(../images/logo_sep.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+.logo h5{
+	padding:20px 0px 0px 20px;
+	float:left;
+}
+.cartsec {
+	float:right;
+	padding:10px 0px 10px 55px;
+	margin:30px 0px 0px 0px;
+	background-image:url(../images/cart.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	font-size:16px;
+}
+/*
+=======================================================================
+	Navigation
+=======================================================================
+*/
+.navigation {
+	width:940px;
+	height:37px;
+}
+/*
+=======================================================================
+	Search
+=======================================================================
+*/
+.search {
+	width:258px;
+	height:25px;
+	float:right;
+	background-image:url(../images/search.gif);
+	border:#3b4046 solid 1px;
+	margin:5px 0px 0px 0px;
+}
+.search input.bar{
+	width:170px;
+	height:23px;
+	padding-left:25px;
+	float:left;
+	background-color:transparent;
+	border:none;
+	margin:1px 0px 0px 1px;
+	color:#cccccc;
+}
+.search a.buttonone{
+	margin:1px 1px 0px 0px;
+	height:17px;
+	float:right;
+}
+/*
+=======================================================================
+	Banner
+=======================================================================
+*/
+#banner{
+	width:100%;
+	height:344px;
+	background-image:url(../images/banner.gif);
+	background-repeat:repeat-x;
+	padding-top:17px;
+}
+#banner .inner{
+	width:926px;
+	height:313px;
+	border:#bcbcbc solid 1px;
+	padding:6px;
+	background-color:#FFF;
+}
+#banner .sliderwrapper{
+	position: relative;
+	overflow: hidden;
+}
+#banner .sliderwrapper .contentdiv{
+	visibility: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+}
+#banner #paginate-slider2 {
+	width:76px;
+	height:29px;
+	background-image:url(../images/banner_controls.png);
+	background-repeat:no-repeat;
+	margin:-40px 0px 0px 840px;
+	position:absolute;
+}
+#banner #paginate-slider2 a.prev{
+	width:38px;
+	height:29px;
+	display:inline-block;
+	float:left;
+}
+#banner #paginate-slider2 a.next{
+	width:38px;
+	height:29px;
+	display:inline-block;
+	float:left;
+}
+/*
+=======================================================================
+	Bread Crumb
+=======================================================================
+*/
+#crumb{
+	width:938px;
+	height:33px;
+	border:#191919 solid 1px;
+	background-color:#262626;
+	margin-top:15px;
+}
+#crumb ul{
+	float:left;
+	list-style:none;
+}
+#crumb ul li{
+	float:left;
+	color:#999;
+}
+#crumb ul li.txt{
+	color:#fff;
+	padding:9px 20px 0px 20px;
+}
+#crumb ul li a{
+	color:#999;
+	height:25px;
+	padding:8px 25px 0px 20px;
+	background-image:url(../images/crumb.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+	display:inline-block;
+	font-size:12px;
+}
+#crumb ul li a.last{
+	background-image:url(../images/crumb_last.gif);
+}
+#crumb ul li a:hover{
+	text-decoration:underline;
+}
+#crumb ul li.txt{
+	float:left;
+}
+/*
+=======================================================================
+	Content Section
+=======================================================================
+*/
+#content_sec {
+	width:940px;
+	padding-top:15px;
+}
+/*
+=======================================================================
+	Column 1
+=======================================================================
+*/
+.col1 {
+	width:220px;
+	float:left;
+}
+h5.small_head{
+	width:208px;
+	height:26px;
+	padding:9px 0px 0px 10px;
+	background-image:url(../images/leftcoloumn_head.gif);
+	background-repeat:no-repeat;
+	float:left;
+	color:#FFF;
+	margin-bottom:10px;
+}
+/*
+=======================================================================
+	Categories
+=======================================================================
+*/
+.categories {
+	width:218px;
+	float:left;
+	border:#cccccc solid 1px;
+	background-image:url(../images/leftcolumn_bg.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	background-color:#fafafa;
+	margin-bottom:15px;
+}
+.arrowlistmenu{
+	width: 218px;
+	float:left;
+}
+.arrowlistmenu .menuheader{
+	width:198px;
+	height:21px;
+	padding:8px 10px 0px 10px;
+	display:inline-block;
+	background-image:url(../images/down.gif);
+	background-repeat:no-repeat;
+	background-position:95% 50%;
+	border-bottom:#cccccc solid 1px;
+}
+.arrowlistmenu .openheader{
+	background-image: url(../images/up.gif);
+}
+.arrowlistmenu ul{
+	list-style:none;
+	padding:5px 0px 5px 0px;
+}
+.arrowlistmenu ul li{
+	padding-bottom: 2px;
+}
+.arrowlistmenu ul li a{
+	background-image:url(../images/foot_arrow.gif);
+	background-repeat:no-repeat;
+	background-position:5% 50%;
+	width:188px;
+	height:18px;
+	padding:4px 10px 0px 20px;
+	display:inline-block;
+}
+/*
+=======================================================================
+	Compare
+=======================================================================
+*/
+.compare {
+	width:218px;
+	float:left;
+	border:#cccccc solid 1px;
+	background-image:url(../images/leftcolumn_bg.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	background-color:#fafafa;
+	margin-bottom:15px;
+	padding:0px 0px 10px 0px;
+}
+.compare ul{
+	float:left;
+	list-style:none;
+	width:218px;
+}
+.compare ul li{
+	float:left;
+	width:208px;
+	padding:10px 0px 10px 10px;
+	border-bottom:#cccccc solid 1px;
+}
+.compare ul li a.title{
+	float:left;
+	width:192px;
+}
+.compare ul li a.cross{
+	float:left;
+	width:8px;
+	height:8px;
+	display:inline-block;
+	background-image:url(../images/cross.gif);
+	background-repeat:no-repeat;
+	margin:4px 0px 0px 0px;
+}
+.compare a.buttonone{
+	margin:10px 10px 0px 0px;
+}
+/*
+=======================================================================
+	Community Poll
+=======================================================================
+*/
+.com_pol {
+	width:218px;
+	float:left;
+	border:#cccccc solid 1px;
+	background-image:url(../images/leftcolumn_bg.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	background-color:#fafafa;
+	margin-bottom:15px;
+	padding:0px 0px 10px 0px;
+}
+.com_pol p.wht{
+	padding:0px 0px 10px 10px;
+}
+.com_pol ul{
+	float:left;
+	list-style:none;
+	width:218px;
+	border-bottom:#CCC solid 1px;
+	border-top:#CCC solid 1px;
+	padding:10px 0px 8px 0px;
+}
+.com_pol ul li{
+	float:left;
+	width:208px;
+	padding:5px 0px 5px 10px;
+}
+.com_pol ul li input{
+	float:left;
+	margin-right:10px;
+}
+.com_pol a.buttonone{
+	margin:10px 0px 0px 10px;
+}
+/*
+=======================================================================
+	My Cart
+=======================================================================
+*/
+.mycart {
+	width:218px;
+	float:left;
+	border:#cccccc solid 1px;
+	background-image:url(../images/leftcolumn_bg.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	background-color:#fafafa;
+	margin-bottom:15px;
+}
+.mycart p.txt{
+	width:198px;
+	padding:0px 10px;
+}
+.mycart a.checkout{
+	margin:5px 0px 10px 10px;
+}
+.mycart ul{
+	width:218px;
+	list-style:none;
+	border-top:#b8b8b8 solid 1px;
+}
+.mycart ul li{
+	width:198px;
+	padding:10px;
+	border-bottom:#b8b8b8 solid 1px;
+	float:left;
+}
+.mycart ul li.withbg{
+	background-color:#FFF;
+}
+.mycart ul li a.title{
+	width:180px;
+	float:left;
+}
+.mycart ul li a.cross{
+	width:8px;
+	height:8px;
+	display:inline-block;
+	float:right;
+	background-image:url(../images/cross.gif);
+	background-repeat:no-repeat;
+}
+.mycart ul li p.qty{
+	float:left;
+	padding-top:3px;
+}
+.mycart ul li p.price{
+	float:right;
+	padding-top:3px;
+}
+/*
+=======================================================================
+	Column 2
+=======================================================================
+*/
+.col2 {
+	width:700px;
+	float:right;
+}
+/*
+=======================================================================
+	Small Banner
+=======================================================================
+*/
+.banner_small {
+	float:left;
+	width:698px;
+	height:183px;
+	border:#ccc solid 1px;
+	margin-bottom:20px;
+}
+/*
+=======================================================================
+	Featured Products
+=======================================================================
+*/
+.featuredslider {
+	float:left;
+	width:700px;
+	margin-bottom:20px;
+}
+.featuredslider .innerslider{
+	width:658px;
+	height:143px;
+	padding:20px;
+	background-image:url(../images/leftcolumn_bg.gif);
+	background-repeat:repeat-x;
+	float:right;
+	border:#cccccc solid 1px;
+}
+.featuredslider a.prevbtn{
+	width:26px;
+	height:143px;
+	background-image:url(../images/prev_slider.gif);
+	background-repeat:no-repeat;
+	float:left;
+	display:inline-block;
+}
+.featuredslider a.nextbtn{
+	width:26px;
+	height:143px;
+	background-image:url(../images/next_slider.gif);
+	background-repeat:no-repeat;
+	float:left;
+	display:inline-block;
+	margin:0px 0px 0px 25px;
+}
+.featuredslider .scroll{
+	float:left;
+}
+.featuredslider .scroll a{
+	float:left;
+	width:110px;
+	height:137px;
+	padding:3px;
+	background-color:#cccccc;
+	text-align:center;
+	font-size:12px;
+	margin-left:28px;
+}
+.featuredslider .scroll a img{
+	margin-bottom:7px;
+}
+.featuredslider .scroll a:hover{
+	background-color:#333333;
+	color:#FFF;
+}
+/*
+=======================================================================
+	Product Listing
+=======================================================================
+*/
+.prlisting {
+	float:left;
+	width:700px;
+	padding-bottom:10px;
+}
+.prlisting ul.listing{
+	float:left;
+	width:700px;
+	list-style:none;
+	padding-top:10px;
+}
+.prlisting ul.listing li{
+	float:left;
+	width:218px;
+	height:236px;
+	border:#cccccc solid 1px;
+	list-style:none;
+	background-color:#FFF;
+	margin:0px 20px 20px 0px;
+}
+.prlisting ul.listing li.last{
+	margin-right:0px;
+}
+.prlisting ul.listing li a.thumb{
+	float:left;
+	width:218px;
+	border-bottom:#cccccc solid 1px;
+}
+.prlisting ul.listing li h6{
+	float:left;
+	width:218px;
+	padding:9px 12px 7px 12px;
+}
+.prlisting ul.listing li a.addwish{
+	float:left;
+	background-image:url(../images/add_small.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:10px;
+	margin:0px 10px 5px 12px;
+}
+.prlisting ul.listing li a.addcomp{
+	float:left;
+	background-image:url(../images/add_small.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:10px;
+	margin:0px 10px 5px 12px;
+}
+.prlisting ul.listing li p.price{
+	padding:0px 0px 0px 12px;
+	width:175px;
+	float:left;
+}
+.overline{
+	text-decoration:line-through;
+}
+.prlisting ul.listing li a.addtocart{
+	float:right;
+	width:14px;
+	height:14px;
+	margin:3px 12px 0px 0px;
+	background-image:url(../images/add_big.gif);
+	background-repeat:no-repeat;
+}
+.prlisting ul.listing li a.addtocart .bubble{
+	width:67px;
+	height:24px;
+	padding-top:3px;
+	margin:-42px 0px 0px -26px;
+	background-image:url(../images/addtocart_bubble.png);
+	background-repeat:no-repeat;
+	color:#FFF;
+	text-align:center;
+	position:absolute;
+	display:none;
+}
+.prlisting ul.listing li a.addtocart:hover .bubble{
+	display:inline-block;
+}
+/*
+=======================================================================
+	Paging
+=======================================================================
+*/
+.paging {
+	float:left;
+	width:700px;
+	height:45px;
+	background-image:url(../images/paging.gif);
+	background-repeat:no-repeat;
+}
+.paging ul{
+	float:left;
+	list-style:none;
+	padding:6px 0px 0px 10px;
+}
+.paging ul li{
+	float:left;
+	padding-right:5px;
+}
+.paging ul li a.prevpage{
+	float:left;
+	background-image:url(../images/arow_prev.gif);
+	background-repeat:no-repeat;
+	background-position:0px 5px;
+	padding-left:15px;
+	margin-top:5px;
+}
+.paging ul li a.nextpage{
+	float:left;
+	background-image:url(../images/arow_next.gif);
+	background-repeat:no-repeat;
+	background-position:100% 50%;
+	padding-right:15px;
+	margin-top:5px;
+}
+.paging ul li a.numbr{
+	float:left;
+	background-repeat:repeat-x;
+	height:17px;
+	padding:4px 8px 0px 8px;
+	border:transparent solid 1px;
+	color:#777777;
+}
+.paging ul li a.numbr:hover{
+	background-image:url(../images/paging_bg.gif);
+	border:#1e1e1e solid 1px;
+	color:#FFF;
+}
+.paging ul li a.selected{
+	background-image:url(../images/paging_bg.gif);
+	border:#1e1e1e solid 1px;
+	color:#FFF;
+}
+.paging p{
+	float:right;
+	list-style:none;
+	padding:8px 10px 0px 0px;
+	color:#777777;
+}
+.paging p .items{
+	color:#999999;
+}
+/*
+=======================================================================
+	Content Section
+=======================================================================
+*/
+.categoriessection {
+	width:940px;
+	height:334px;
+	background-image:url(../images/cate_bg.gif);
+	background-repeat:no-repeat;
+	margin-bottom:20px;
+}
+.categoriessection .catedata{
+	width:500px;
+	float:right;
+	margin:20px 120px 0px 0px;
+}
+.categoriessection ul{
+	width:250px;
+	float:left;
+	margin:10px 0px 0px 0px;
+	list-style:none;
+}
+.categoriessection ul li{
+	width:220px;
+	float:left;
+	margin:0px 0px 20px 0px;
+	padding:5px 0px 0px 30px;
+	background-image:url(../images/cat_bullet.png);
+	background-repeat:no-repeat;
+	background-position:0% 90%;
+}
+.categoriessection ul li a{
+	font-size:12px;
+}
+.categoriessection a.viewall{
+	background-image:url(../images/viewall.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:15px;
+	float:right;
+	font-size:12px;
+	margin:20px 185px 0px 0px;
+}
+/*
+=======================================================================
+	Product Detail
+=======================================================================
+*/
+.prod_detail {
+	float:left;
+	width:700px;
+	padding-bottom:10px;
+}
+/*
+=======================================================================
+	Product Detail Gallery
+=======================================================================
+*/
+.prod_detail .thumbgallery{
+	float:left;
+	width:326px;
+	border:#ccc solid 1px;
+	background-color:#FFF;
+}
+.prod_detail .contentdiv {
+	width:326px !important;
+	height:366px !important;
+	overflow:hidden !important;
+	float:left;
+	border-bottom:#CCC solid 1px;
+}
+.prod_detail .contentdiv img{
+	width:326px !important;
+	height:366px !important;
+	overflow:hidden !important;
+	float:left;
+	margin:0px 0px 0px 0px;
+	z-index:1;
+}
+.prod_detail #slider2{
+	width:326px;
+	overflow:hidden !important;
+	float:left;
+	height:367px !important;
+}
+.prod_detail #paginate-slider2{
+	overflow:hidden;
+	float:left;
+	margin:17px 0px;
+}
+.prod_detail #paginate-slider2 ul{
+	float:left;
+}
+.prod_detail #paginate-slider2 li{
+	margin-right:14px;
+}
+.prod_detail #paginate-slider2 li a{
+	border:#e3e3e3 solid 1px;
+	float:left;
+	height:51px !important;
+	width:51px !important;
+}
+.prod_detail #paginate-slider2 li a.selected{
+	border:#999 solid 1px;
+}
+.prod_detail #paginate-slider2 img{
+	float:left;
+	height:51px;
+	width:51px;
+	z-index:1;
+}
+.prod_detail a.prevbtn {
+	float:left;
+	margin:38px 7px 0px 20px;
+}
+.prod_detail a.nextbtn {
+	float:left;
+	margin:38px 5px 0px 5px;
+}
+.zoom {
+	background-repeat:no-repeat;
+	background-position:100% 100%;
+	width:326px;
+	height:366px;
+	margin:-366px 0px 0px 0px;
+	z-index:9;
+	font-size:1000px;
+	overflow:hidden;
+	display:block;
+	float:left;
+}
+.zoom:hover {
+	background-image:url(../images/zoom.png);
+}
+/*
+=======================================================================
+	Product Detail Description
+=======================================================================
+*/
+.prod_detail .desc{
+	float:right;
+	width:350px;
+}
+.prod_detail .desc .prodlinks{
+	float:left;
+	width:290px;
+}
+.prod_detail .desc .prodlinks a.emailfriend{
+	background-image:url(../images/email.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:25px;
+	margin:7px 0px 5px 0px;
+	float:left;
+}
+.prod_detail .desc .prodlinks a.writereview{
+	background-image:url(../images/writereview.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:25px;
+	height:17px;
+	padding-top:3px;
+	display:inline-block;
+}
+.prod_detail .desc .stock{
+	float:right;
+}
+.prod_detail .desc .quickreview{
+	float:left;
+	width:350px;
+	border:#ccc solid 1px;
+	border-left:none;
+	border-right:none;
+	margin:15px 0px;
+	padding:10px 0px;
+}
+.prod_detail .desc .quickreview h6{
+	padding-bottom:5px;
+}
+.prod_detail .desc .prod_options{
+	float:left;
+	width:348px;
+	border:#ccc solid 1px;
+	background-color:#FFF;
+}
+.prod_detail .desc .prod_options .colorsmodel{
+	float:left;
+	width:328px;
+	padding:15px 10px 0px 10px;
+	border-bottom:#ccc solid 1px;
+}
+.prod_options .colorsmodel ul{
+	float:left;
+	width:328px;
+	list-style:none;
+	margin-bottom:10px;
+}
+.prod_options .colorsmodel ul li{
+	float:left;
+}
+.prod_options .colorsmodel ul li.txt{
+	float:left;
+	width:50px;
+	padding-top:2px;
+}
+.prod_options .colorsmodel ul li.optons{
+	float:left;
+}
+.prod_options .colorsmodel ul li.optons select{
+	float:left;
+	width:238px;
+	height:19px;
+	background-color:#FFF;
+	border:#dddddd solid 1px;
+}
+.prod_detail .desc .prod_options .moreoption{
+	float:left;
+	width:328px;
+	padding:10px;
+}
+.prod_options .moreoption p.price{
+	padding:0px 0px 0px 0px;
+}
+.prod_options .moreoption ul{
+	list-style:none;
+	padding:10px 0px 15px 0px;
+	float:left;
+	width:328px;
+}
+.prod_options .moreoption ul li{
+	float:left;
+}
+.prod_options .moreoption ul li.txt{
+	padding:4px 10px 0px 0px;
+}
+.prod_options .moreoption ul li input{
+	float:left;
+	width:148px;
+	height:22px;
+	background-color:#FFF;
+	border:#d0d0d0 solid 1px;
+}
+.prod_options .moreoption ul li.cartbtn{
+	float:right;
+}
+.prod_options .moreoption ul li.cartbtn a{
+	width:69px;
+	height:18px;
+	padding:4px 0px 0px 40px;
+	background-image:url(../images/addtocart.gif);
+	background-repeat:no-repeat;
+	display:inline-block;
+	color:#FFF;
+	border:#151515 solid 1px;
+}
+.prod_options a.addtowishlist{
+	background-image:url(../images/addtowish.gif);
+	width:86px;
+	height:19px;
+	padding:5px 0px 0px 25px;
+	color:#FFF;
+	display:inline-block;
+}
+/*
+=======================================================================
+	Tabs
+=======================================================================
+*/
+.tabs{
+	float:left;
+	width:700px;
+	margin:20px 0px;
+}
+.tabs .tab_menu_container{
+	float:left;
+	width:700px;
+	height:30px;
+	background-image:url(../images/dot.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+}
+.tabs .tab_menu_container ul{
+	float:left;
+	width:700px;
+	list-style:none;
+}
+.tabs .tab_menu_container ul li{
+	float:left;
+	padding-right:1px;
+}
+.tabs .tab_menu_container ul li a{
+	float:left;
+	background-image:url(../images/tabs.gif);
+	background-repeat:repeat-x;
+	background-position:top;
+	height:23px;
+	padding:7px 15px 0px 15px;
+	font-size:12px;
+	border:#c5c5c5 solid 1px;
+	border-bottom:none;
+	border-top:none;
+	cursor:pointer;
+}
+.tabs .tab_menu_container ul li a:hover{
+	background-image:url(../images/tabs_rol.gif);
+}
+.tabs .tab_menu_container ul li a.current{
+	background-image:url(../images/tabs_rol.gif);
+}
+.tabs .tab_container{
+	float:left;
+	width:680px;
+	padding:10px;
+	background-color:#FFF;
+	border:#cccccc solid 1px;
+	border-top:none;
+}
+/*
+=======================================================================
+	Shopping Cart
+=======================================================================
+*/
+.shoppingcart{
+	float:left;
+	width:940px;
+}
+.shoppingcart ul.buttons{
+	float:right;
+	list-style:none;
+	margin-bottom:10px;
+}
+.shoppingcart ul.buttons li{
+	float:left;
+	padding-left:10px;
+}
+.shoppingcart .cartitems{
+	width:940px;
+	float:left;
+	padding-bottom:20px;
+}
+.shoppingcart ul.carthead{
+	float:left;
+	width:940px;
+	height:24px;
+	padding-top:8px;
+	background-color:#333333;
+	color:#FFF;
+	list-style:none;
+	font-size:12px;
+}
+.shoppingcart ul.carthead li.image{
+	float:left;
+	width:70px;
+	text-align:center;
+}
+.shoppingcart ul.carthead li.name{
+	float:left;
+	width:537px;
+}
+.shoppingcart ul.carthead li.delete{
+	float:left;
+	width:50px;
+	text-align:center;
+}
+.shoppingcart ul.carthead li.qty{
+	float:left;
+	width:92px;
+	text-align:center;
+}
+.shoppingcart ul.carthead li.unitprice{
+	float:left;
+	width:88px;
+	text-align:center;
+}
+.shoppingcart ul.carthead li.subtotal{
+	float:left;
+	width:103px;
+	text-align:center;
+}
+
+.shoppingcart ul.cartlist{
+	float:left;
+	width:938px;
+	background-color:#eeeeee;
+	list-style:none;
+	font-size:12px;
+	border:#cccccc solid 1px;
+	border-top:none;
+}
+.shoppingcart ul.cartlist li.image{
+	float:left;
+	width:70px;
+	height:64px;
+	text-align:center;
+}
+.shoppingcart ul.cartlist li.image a{
+	float:left;
+	border:#ccc solid 1px;
+	margin:8px 0px 0px 10px;
+}
+.shoppingcart ul.cartlist li.name{
+	float:left;
+	width:535px;
+	height:64px;
+}
+.shoppingcart ul.cartlist li.name a{
+	margin-top:25px;
+	float:left;
+}
+.shoppingcart ul.cartlist li.delete{
+	float:left;
+	width:50px;
+	height:39px;
+	padding-top:25px;
+	text-align:center;
+}
+.shoppingcart ul.cartlist li.qty{
+	float:left;
+	width:91px;
+	height:64px;
+	text-align:center;
+	border-right:#ccc solid 1px;
+}
+.shoppingcart ul.cartlist li.qty input{
+	width:20px;
+	height:20px;
+	background-color:#FFF;
+	border:#bcbcbc solid 1px;
+	text-align:center;
+	color:#666666;
+	margin-top:21px;
+}
+.shoppingcart ul.cartlist li.unitprice{
+	float:left;
+	width:87px;
+	height:40px;
+	padding-top:24px;
+	text-align:center;
+	border-right:#ccc solid 1px;
+}
+.shoppingcart ul.cartlist li.subtotal{
+	float:left;
+	width:103px;
+	height:40px;
+	padding-top:24px;
+	text-align:center;
+}
+/*
+=======================================================================
+	Cart Left
+=======================================================================
+*/
+.shoppingcart .cartleft{
+	float:left;
+	width:641px;
+}
+/*
+=======================================================================
+	Discount Coupon
+=======================================================================
+*/
+.shoppingcart .cartleft .discount_coupon{
+	float:left;
+	width:615px;
+	padding:18px 12px 20px 12px;
+	border:#cccccc solid 1px;
+	background-color:#FFF;
+	margin-bottom:20px;
+}
+.cartleft .discount_coupon h6{
+	padding:0px 0px 10px 0px;
+}
+.cartleft .discount_coupon input.bar{
+	padding:0px 5px;
+	width:504px;
+	height:22px;
+	border:#a0a0a0 solid 1px;
+	color:#666666;
+}
+/*
+=======================================================================
+	Related Products
+=======================================================================
+*/
+.shoppingcart .cartleft .relatedproducts{
+	float:left;
+	width:615px;
+	padding:18px 12px 20px 12px;
+	border:#cccccc solid 1px;
+	background-color:#FFF;
+	margin-bottom:20px;
+}
+.relatedproducts h6.relhead{
+	padding:0px 0px 20px 0px;
+}
+.relatedproducts .product{
+	float:left;
+	width:218px;
+	height:236px;
+	border:#cccccc solid 1px;
+	list-style:none;
+	background-color:#FFF;
+	margin:0px 20px 0px 0px;
+}
+.relatedproducts .product a.thumb{
+	float:left;
+	width:218px;
+	border-bottom:#cccccc solid 1px;
+}
+.relatedproducts .product h6{
+	float:left;
+	width:218px;
+	padding:9px 12px 7px 12px;
+}
+.relatedproducts .product a.addwish{
+	float:left;
+	background-image:url(../images/add_small.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:10px;
+	margin:0px 10px 5px 12px;
+}
+.relatedproducts .product a.addcomp{
+	float:left;
+	background-image:url(../images/add_small.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:10px;
+	margin:0px 10px 5px 12px;
+}
+.relatedproducts .product p.price{
+	padding:0px 0px 0px 12px;
+	width:175px;
+	float:left;
+}
+.relatedproducts .product a.addtocart{
+	float:right;
+	width:14px;
+	height:14px;
+	margin:3px 12px 0px 0px;
+	background-image:url(../images/add_big.gif);
+	background-repeat:no-repeat;
+}
+.relatedproducts .product .bubble{
+	width:67px;
+	height:24px;
+	padding-top:3px;
+	margin:-42px 0px 0px -26px;
+	background-image:url(../images/addtocart_bubble.png);
+	background-repeat:no-repeat;
+	color:#FFF;
+	text-align:center;
+	position:absolute;
+	display:none;
+}
+.relatedproducts .product a.addtocart:hover .bubble{
+	display:inline-block;
+}
+.relatedproducts a.arrows_left{
+	width:27px;
+	height:55px;
+	background-image:url(../images/arrow_left.gif);
+	background-repeat:no-repeat;
+	display:inline-block;
+	float:left;
+	margin:76px 30px 0px 19px;
+}
+.relatedproducts a.arrows_right{
+	width:27px;
+	height:55px;
+	background-image:url(../images/arrow_right.gif);
+	background-repeat:no-repeat;
+	display:inline-block;
+	float:left;
+	margin:76px 0px 0px 14px;
+}
+/*
+=======================================================================
+	Cart Left
+=======================================================================
+*/
+.shoppingcart .cartleft{
+	float:left;
+	width:641px;
+}
+/*
+=======================================================================
+	Footer
+=======================================================================
+*/
+#footer {
+	width:100%;
+	background-image:url(../images/footer_bg.gif);
+	background-repeat:repeat-x;
+	background-color:#000;
+}
+#footer .footer_top{
+	width:940px;
+	height:71px;
+	float:left;
+}
+#footer .newsletter{
+	width:500px;
+	float:left;
+}
+#footer .newsletter h4{
+	float:left;
+	background-image:url(../images/newsletter_subs.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding:0px 0px 0px 30px;
+	margin:28px 0px 0px 0px;
+}
+#footer .newsletter ul{
+	float:right;
+	background-image:url(../images/newsletter_bg.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	width:318px;
+	height:34px;
+	border:#cecece solid 1px;
+	list-style:none;
+	margin:20px 0px 0px 0px;
+}
+#footer .newsletter ul li{
+	float:left;
+}
+#footer .newsletter ul li input{
+	float:left;
+	width:230px;
+	height:32px;
+	padding:0px 10px 0px 10px;
+	border:none;
+	background-color:transparent;
+	color:#999999;
+}
+#footer .newsletter ul li a.searchbtn{
+	float:right;
+	margin:5px 5px 0px 0px;
+}
+#footer .creditcards{
+	float:right;
+	margin:20px 0px 0px 0px;
+}
+#footer .creditcards h4{
+	float:left;
+	margin:8px 0px 0px 0px;
+}
+#footer .creditcards ul{
+	float:left;
+	list-style:none;
+}
+#footer .creditcards ul li{
+	float:left;
+	padding-left:10px;
+}
+/*
+=======================================================================
+	Cart Right
+=======================================================================
+*/
+.shoppingcart .cartright{
+	float:right;
+	width:280px;
+}
+/*
+=======================================================================
+	Totals
+=======================================================================
+*/
+.shoppingcart .totals{
+	float:left;
+	width:280px;
+	padding-top:1px;
+	margin-bottom:23px;
+}
+.shoppingcart .totals ul{
+	float:left;
+	width:278px;
+	list-style:none;
+	background-color:#eeeeee;
+	border:#ccc solid 1px;
+	margin-top:-1px;
+	font-size:13px;
+	text-transform:uppercase;
+	color:#000;
+}
+.shoppingcart .totals ul li.tot_head{
+	float:left;
+	width:169px;
+	height:23px;
+	padding:7px 0px 0px 10px;
+	border-right:#cccccc solid 1px;
+}
+.shoppingcart .totals ul li.tot_price{
+	float:left;
+	width:88px;
+	height:23px;
+	padding:7px 10px 0px 0px;
+	text-align:right;
+}
+.shoppingcart .totals a{
+	float:left;
+	padding:7px 0px 0px 0px;
+}
+/*
+=======================================================================
+	Estimate Shipping and Tax
+=======================================================================
+*/
+.shoppingcart .est_tax{
+	float:left;
+	width:248px;
+	padding:15px;
+	border:#CCC solid 1px;
+	background-color:#FFF;
+}
+.shoppingcart .est_tax h5{
+	padding-bottom:10px;
+}
+.shoppingcart .est_tax p{
+	padding-bottom:10px;
+}
+.shoppingcart .est_tax ul{
+	list-style:none;
+}
+.shoppingcart .est_tax ul li{
+	width:248px;
+}
+.shoppingcart .est_tax ul li.txt{
+	padding:20px 0px 9px 0px;
+}
+.shoppingcart .est_tax ul li.inputf select{
+	width:248px;
+	height:18px;
+	border:#ccc solid 1px;
+	background-color:#FFF;
+	color:#666;
+}
+.shoppingcart .est_tax ul li.inputf input{
+	width:248px;
+	height:18px;
+	border:#ccc solid 1px;
+	background-color:#FFF;
+	color:#666;
+}
+/*
+=======================================================================
+	Login Rules
+=======================================================================
+*/
+.login {
+	width:960px;
+	float:left;
+	padding-bottom:20px;
+}
+.login h5{
+	padding:0px 0px 20px 0px;
+}
+/*
+=======================================================================
+	Sign In Rules
+=======================================================================
+*/
+.login .signin{
+	width:428px;
+	height:222px;
+	padding:20px;
+	float:left;
+	background-color:#FFF;
+	border:#ccc solid 1px;
+	margin-top:10px;
+}
+.login .signin p{
+	padding-bottom:10px;
+}
+.login .signin ul{
+	float:left;
+	list-style:none;
+	padding-bottom:10px;
+}
+.login .signin ul li{
+	float:left;
+}
+.login .signin ul li.txt{
+	float:left;
+	width:100px;
+	padding-top:4px;
+}
+.login .signin ul li.field{
+	float:left;
+	width:292px;
+}
+.login .signin ul li.field input{
+	float:left;
+	width:280px;
+	height:23px;
+	line-height:23px;
+	padding:0px 5px;
+	background-image:url(../images/input_bg.gif);
+	background-repeat:no-repeat;
+	border:#cccccc solid 1px;
+}
+.login .signin ul li.field a.forget{
+	margin-left:10px;
+	margin-top:6px;
+	float:right;
+	margin-right:20px;
+}
+/*
+=======================================================================
+	New Customer Rules
+=======================================================================
+*/
+.login .newcus{
+	width:428px;
+	height:222px;
+	padding:20px;
+	float:right;
+	background-color:#FFF;
+	border:#ccc solid 1px;
+	margin-top:10px;
+}
+.login .newcus p{
+	width:428px;
+	padding:0px 0px 20px 0px;
+}
+/*
+=======================================================================
+	My Account
+=======================================================================
+*/
+.account {
+	float:left;
+	width:700px;
+	padding-bottom:10px;
+}
+.account ul.account_links{
+	width:700px;
+	float:left;
+	list-style:none;
+	height:26px;
+	background-color:#ccc;
+	margin-bottom:20px;
+}
+.account ul.account_links li{
+	float:left;
+	background-image:url(../images/account_sep.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+	height:26px;
+}
+.account ul.account_links li a{
+	display:inline-block;
+	height:20px;
+	float:left;
+	color:#666;
+	padding:6px 15px 0px 15px;
+	background-repeat:repeat-x;
+	font-weight:bold;
+}
+.account ul.account_links li a:hover{
+	background-color:#666;
+	color:#FFF;
+}
+.account ul.account_links li a.selected{
+	background-color:#666;
+	color:#FFF;
+}
+.account .hello{
+	float:left;
+	width:700px;
+	padding:10px 0px 20px 0px;
+}
+.account .hello h6{
+	padding-bottom:5px;
+}
+/*
+=======================================================================
+	My Account Table
+=======================================================================
+*/
+.account_table {
+	width:698px;
+	float:left;
+	background-color:#FFF;
+	border:#CCC solid 1px;
+}
+.recentorders h5{
+	padding-bottom:10px;
+}
+.account_table ul{
+	width:698px;
+	list-style:none;
+}
+.account_table ul.headtable{
+	width:690px;
+	float:left;
+	padding:0px 4px;
+	height:30px;
+	background-color:#cccccc;
+	text-transform:uppercase;
+}
+.account_table ul.headtable li{
+	padding-top:7px !important;
+	height:23px;
+	border-right:#bababa solid 1px;
+}
+.account_table ul li.nobordr{
+	border-right:none;
+}
+.account_table ul.contable{
+	width:690px;
+	float:left;
+	padding:0px 4px;
+	background-color:#fff;
+}
+.account_table ul li{
+	float:left;
+	padding:6px 0px;
+	text-align:center;
+	border-right:#e7e7e7 solid 1px;
+}
+.account_table ul li.order{
+	width:99px;
+}
+.account_table ul li.date{
+	width:99px;
+}
+.account_table ul li.ship{
+	width:80px;
+}
+.account_table ul li.ordertotal{
+	width:130px;
+}
+.account_table ul li.status{
+	width:126px;
+}
+.account_table ul li.action {
+	width:146px;
+}
+.account_table ul li.action a{
+	padding:0px 6px;
+	border-left:#666 solid 1px;
+}
+.account_table ul li.action a.first{
+	padding:0px 6px;
+	border-left:none;
+}
+.sections {
+	width:698px;
+	border:#dedede solid 1px;
+	background-color:#FFF;
+	margin-top:15px;
+}
+.sections .sechead{
+	width:100%;
+	height:35px;
+	background-color:#cccccc;
+	float:left;
+	border-bottom:#dedede solid 1px;
+}
+.sections .sechead h6{
+	float:left;
+	padding:12px 0px 0px 10px;
+}
+.sections .sechead a{
+	float:right;
+	margin:11px 10px 0px 0px;
+}
+.sections .sec{
+	width:349px;
+	float:left;
+	min-height:125px;
+}
+.sections .sec .txtsection{
+	padding:10px;
+}
+.sections .secbordr{
+	width:348px;
+	border-left:#dedede solid 1px;
+}
+/*
+=======================================================================
+	View Tags Rules
+=======================================================================
+*/
+.view_tags {
+	width:698px;
+	float:left;
+	margin-top:10px;
+	padding-bottom:20px;
+}
+.view_tags .tagssec{
+	width:338px;
+	float:right;
+}
+.view_tags .tagssec p{
+	float:left;
+	padding-right:3px;
+}
+.view_tags .tagssec a{
+	float:left;
+	padding-top:2px;
+}
+.view_tags .viewssec{
+	width:338px;
+	float:left;
+}
+.view_tags ul{
+	list-style:none;
+}
+.view_tags ul li{
+	padding:10px 0px;
+	border-bottom:#999999 dashed 1px;
+}
+.view_tags ul li h6.title{
+	float:left;
+	margin-top:2px;
+	margin-bottom:5px;
+	color:#666;
+	text-transform:uppercase;
+}
+.view_tags ul li .rating{
+	margin:3px 0px 0px 0px;
+}
+/*
+=======================================================================
+	Column 3
+=======================================================================
+*/
+.col3 {
+	width:940px;
+	float:left;
+}
+/*
+=======================================================================
+	Static Page
+=======================================================================
+*/
+.static {
+	width:940px;
+	float:left;
+}
+.static .stat_sec_small{
+	width:460px;
+	float:left;
+	margin:20px 0px;
+}
+.static .stat_sec_small h5{
+	width:460px;
+	float:left;
+	padding-bottom:10px;
+}
+.static .stat_sec_big{
+	width:940px;
+	float:left;
+	margin:20px 0px;
+}
+.static .stat_sec_big .thumb{
+	width:240px;
+	float:left;
+}
+.static .stat_sec_big .desc{
+	width:700px;
+	float:right;
+}
+.static .stat_sec_big .desc h5{
+	padding-bottom:10px;
+}
+.static .stat_sec_big .desc p{
+	padding-bottom:10px;
+}
+.texttype {
+	padding:10px 0px 20px 0px;
+	width:940px;
+	float:left;
+}
+.texttype p{
+	padding:0px 30px 0px 0px;
+	float:left;
+}
+.static .sec1{
+	float:left;
+	width:300px;
+}
+.static .sec1 h1{
+	padding-bottom:20px;
+}
+.static .sec1 h2{
+	padding-bottom:20px;
+}
+.static .sec1 h3{
+	padding-bottom:20px;
+}
+.static .sec1 h4{
+	padding-bottom:20px;
+}
+.static .sec1 h5{
+	padding-bottom:20px;
+}
+.static .sec1 h6{
+	padding-bottom:20px;
+}
+.static .sec2{
+	float:left;
+	width:300px;
+	margin:0px 10px;
+}
+.static .sec2 h5{
+	padding-bottom:10px;
+}
+.static .sec2 ul{
+	float:left;
+	width:300px;
+	list-style:decimal;
+	list-style-position:inside;
+}
+.static .sec2 ul li{
+	padding-bottom:10px;
+}
+.static .sec3{
+	float:left;
+	width:300px;
+}
+.static .sec3 h5{
+	padding-bottom:10px;
+}
+.static .sec3 ul{
+	float:left;
+	width:300px;
+	list-style-position:inside;
+}
+.static .sec3 ul li{
+	padding-bottom:10px;
+}
+.static .gallery{
+	float:left;
+	width:940px;
+	margin:20px 0px 40px 0px;
+}
+.static .gallery h4{
+	margin-bottom:20px;
+}
+.static .gallery ul{
+	float:left;
+	list-style:none;
+}
+.static .gallery ul li{
+	float:left;
+	padding-right:20px;
+}
+.static .gallery ul li a{
+	float:left;
+	width:92px;
+	height:92px;
+	border:#cccccc solid 4px;
+}
+.static .gallery ul li a:hover{
+	border:#555555 solid 4px;
+}
+.static .checkboxs{
+	float:left;
+	width:430px;
+	padding-top:30px;
+}
+.static .checkboxs h5{
+	padding-bottom:20px;
+}
+.static .checkboxs .checksec{
+	float:left;
+	width:200px;
+}
+.static .formssec {
+	width:420px;
+	float:left;
+}
+.static .tabls{
+	float:right;
+}
+.static .tabls h5{
+	padding:10px 0px 10px 0px;
+}
+.static table{
+	float:left;
+	width:500px;
+	border:#b5b5b5 solid 1px;
+	background-image:url(../images/table.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	background-color:#FFF;
+}
+.static tr.tablehead{
+	font-weight:bold;
+	color:#000;
+}
+.static tr{
+	padding:5px;
+}
+.static tr.tabledark{
+	
+}
+.static tr td{
+	padding:5px 10px;
+}
+/*
+=======================================================================
+	Footer Bottom
+=======================================================================
+*/
+#footer .footer_sec{
+	width:940px;
+	float:left;
+	padding-top:20px;
+}
+/*
+=======================================================================
+	Company
+=======================================================================
+*/
+#footer .company{
+	width:220px;
+	float:left;
+	margin-right:20px;
+}
+#footer .company h4{
+	width:220px;
+	padding-bottom:10px;
+	float:left;
+	border-bottom:#303030 solid 1px;
+	color:#FFF;
+}
+#footer .company ul{
+	width:220px;
+	float:left;
+	list-style:none;
+	padding:10px 0px;
+}
+#footer .company ul li{
+	width:220px;
+	float:left;
+	padding-bottom:5px;
+}
+#footer .company ul li a{
+	width:210px;
+	background-image:url(../images/foot_arrow.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:10px;
+	color:#888888;
+}
+#footer .company ul li a:hover{
+	text-decoration:underline;
+}
+/*
+=======================================================================
+	Custom Care
+=======================================================================
+*/
+#footer .customcare{
+	width:220px;
+	float:left;
+	margin-right:20px;
+}
+#footer .customcare h4{
+	width:220px;
+	padding-bottom:10px;
+	float:left;
+	border-bottom:#303030 solid 1px;
+	color:#FFF;
+}
+#footer .customcare ul{
+	width:220px;
+	float:left;
+	list-style:none;
+	padding:10px 0px;
+}
+#footer .customcare ul li{
+	width:220px;
+	float:left;
+	padding-bottom:5px;
+}
+#footer .customcare ul li a{
+	width:210px;
+	background-image:url(../images/foot_arrow.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:10px;
+	color:#888888;
+}
+#footer .customcare ul li a:hover{
+	text-decoration:underline;
+}
+/*
+=======================================================================
+	Community
+=======================================================================
+*/
+#footer .community{
+	width:220px;
+	float:left;
+	margin-right:20px;
+}
+#footer .community h4{
+	width:220px;
+	padding-bottom:10px;
+	float:left;
+	border-bottom:#303030 solid 1px;
+	color:#FFF;
+}
+#footer .community ul{
+	width:220px;
+	float:left;
+	list-style:none;
+	padding:10px 0px;
+}
+#footer .community ul li{
+	width:220px;
+	float:left;
+	padding-bottom:5px;
+}
+#footer .community ul li a{
+	width:220px;
+	color:#888888;
+}
+#footer .community ul li a img{
+	float:left;
+	margin-right:5px;
+}
+#footer .community ul li a:hover{
+	text-decoration:underline;
+}
+/*
+=======================================================================
+	footlogo
+=======================================================================
+*/
+#footer .footlogo{
+	float:right;
+	padding-top:20px;
+}
+#footer .footlogo h6{
+	text-align:right;
+}
+/*
+=======================================================================
+	Copyrights
+=======================================================================
+*/
+#footer .copyrights{
+	width:940px;
+	margin-top:20px;
+	float:left;
+	padding:10px 0px;
+	border-top:#131313 solid 1px;
+}
+#footer .copyrights p{
+	float:left;
+}
+#footer .copyrights a.top{
+	background-image:url(../images/top.gif);
+	color:#FFF;
+	padding:4px 0px 0px 8px;
+	display:inline-block;
+	width:42px;
+	height:18px;
+	float:right;
+}

@@ -1,0 +1,47 @@
+﻿
+
+table.menu
+{
+    text-align:center;
+    width:100%;
+}        
+table.menu a
+{  
+    border:1px solid #333333;
+    display:block;
+}
+div.menu a
+{
+   color:Green;
+  background:Pink;
+    text-decoration:none;
+    font-size:17px;
+    line-height:27px;
+    font-family:Tahoma, Verdana, Sans-Serif;
+    padding:0px 0px;
+}
+div.menu	a:link {
+color:#F5F5F5;
+background:#383C47;
+}
+
+div.menu	a:active { 
+color:#383C47;
+background:#F5F5F5;
+}
+
+div.menu	a:visited {
+color:#F5F5F5;
+background:#383C47;
+}
+
+div.menu	a:hover {
+color:#383C47;
+background:#F5F5F5;
+border:1px solid #000000; 
+}
+
+
+
+
+
